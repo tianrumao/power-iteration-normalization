@@ -1,0 +1,13 @@
+{
+  "d": 8,
+  "n": 16,
+  "train_size": 2048,
+  "validation_size": 512,
+  "test_size": 1024,
+  "seed": 0,
+  "steps": 600,
+  "batch_size": 64,
+  "learning_rate": 0.002,
+  "init_std": 0.06,
+  "log_every": 100
+}
