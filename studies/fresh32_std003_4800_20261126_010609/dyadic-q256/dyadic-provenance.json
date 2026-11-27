@@ -1,0 +1,991 @@
+{
+  "powers": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "scores": 8640,
+  "reused_targets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "newly_fitted_targets": [
+    256
+  ],
+  "probe_steps": 1200,
+  "mother_models_retrained": false,
+  "sources": [
+    {
+      "study": "probe1200",
+      "path": "seed-1001/000/scores.csv",
+      "sha256": "7002f5f76aaae46d820cfd02348f487f6d401f74166516545ecb0a34b860b504"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1001/111/scores.csv",
+      "sha256": "a215bd2ce0dffabfa32a3d55dc48e3daa6fcdb0c0e4b55f086cf9ca096cf43ad"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1002/000/scores.csv",
+      "sha256": "6b7b6f1735ff446760b72f26bf830afdb0210328e672decef4ec0fd716c88e56"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1002/111/scores.csv",
+      "sha256": "0fe967a700453f3d0b4c8eb7c7f4be63ab38968d2a1ecd630686c99836f50f50"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1003/000/scores.csv",
+      "sha256": "52fc1ce2fbb5388b019abf514321d471a2fc39400002ff0e4ee5c3f951bee319"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1003/111/scores.csv",
+      "sha256": "e3ff4da38735f97b4e68fb60aad301a6636eb0ffba8abcd753ef0c5490714c37"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1004/000/scores.csv",
+      "sha256": "5aefa39edbb3cd19564ec4c08cf21dad572d777c304ca7aee22521dde8d09015"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1004/111/scores.csv",
+      "sha256": "d0ea3ef3de30cac16b220e43b89809713c80a682001e889856788cccb2ede321"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1005/000/scores.csv",
+      "sha256": "708e64ba26a18a1f727a80bc6e902780fff206d60a85ffd4580d7a98401c77de"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1005/111/scores.csv",
+      "sha256": "63bf522de5b4ffd37311fca12feeb1ff8ef69a2e55c8142b8ff696f87bf35b4c"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1006/000/scores.csv",
+      "sha256": "da3969a7b136e79d115bf831f4e72453a07aae2b3de29149e86a6f9e85aeeeff"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1006/111/scores.csv",
+      "sha256": "cab44be41bcec590491ead6cfde729d5a3b53c40c8f1d93f9b93998c0dec73e2"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1007/000/scores.csv",
+      "sha256": "cf18cc2f2b332ba0feff8587f44a2857c8d8d6f54d8724e7d6aba6cc3540af37"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1007/111/scores.csv",
+      "sha256": "c790431f96fb30e3aa6e2192119341f76d7745d42bdb0662045d49423c91d1c2"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1008/000/scores.csv",
+      "sha256": "7eca96089254caa1b929f9e35738ef426382288d5babac1986f3b1924ab26628"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1008/111/scores.csv",
+      "sha256": "8aae58edf21dde9b25adfa5112c2599c39b9f4083617b6f37df5182b538a9a9b"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1009/000/scores.csv",
+      "sha256": "6dfc836b6938f1bf307d164860c5e1a25efb970fbc9d37da4fe31b76d96ef213"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1009/111/scores.csv",
+      "sha256": "41c0c06d4fc8fdc43e201780f6b6fbfdac6eb866b0c4d16b911334be13937a38"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1010/000/scores.csv",
+      "sha256": "366cc6fdebc63d51f12b48b3f2a03c730e631ab93e5931878bd7d2248c1b2491"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1010/111/scores.csv",
+      "sha256": "7a06bd565497d1fed8ab6de528b2ed04d197f6c6e9d57b92d549a2228e3ad64a"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1011/000/scores.csv",
+      "sha256": "e1e08c8d753b200cb912777206e9989996d78fa640271cf10567b0691a20ec58"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1011/111/scores.csv",
+      "sha256": "6778135c362a82b5058a184a08baf458e21ce333880ee1ede26c32d693de3f49"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1012/000/scores.csv",
+      "sha256": "dc844c124cfa55208fef1b58e2886464901334b925e9f9b70f2cad81b8fbc5dc"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1012/111/scores.csv",
+      "sha256": "50ee50de658c82a6389571bf1130f68c5d5999d0eab407b2816066383dfc6a35"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1013/000/scores.csv",
+      "sha256": "d25480bbb2a72d917a7b44d6f1e37a2e332ed3a8e5f8bb7dc21a8eb23caf43e0"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1013/111/scores.csv",
+      "sha256": "a99a23bfe3e1d636f5e709ea2e4ba5e2ac4f91fbf6f4e5fe8c8eb336b9a29fb5"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1014/000/scores.csv",
+      "sha256": "ed43372f847b7ca4580dc3bb327ef6d1e97cf6c0098882f530ee1dff4fc5900a"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1014/111/scores.csv",
+      "sha256": "3f088e0488c450bdf21f175421975c496a82c59dc5c81ef14a3a57ac99f7f423"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1015/000/scores.csv",
+      "sha256": "7fdc3f0217f22c67f95114594feb0ebd2d5aa276224de8a1f06caf590308b670"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1015/111/scores.csv",
+      "sha256": "c6194cda4c1906eb1a0bd9ad9b2d67f26c70ec23cf9bfc530efbc46fb0123770"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1016/000/scores.csv",
+      "sha256": "0827c5020da0297764a9cdf33b2f87bb12a704f3048012293e686a0cba164ba2"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1016/111/scores.csv",
+      "sha256": "9a9359cdc22cba9126fcf2fe347d5900b663c61a332b0fd2153495034b186cc8"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1017/000/scores.csv",
+      "sha256": "ae52b14f974af167895adb3fd1ca09cba8234eb04325a25a692d7f4ac2c61f60"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1017/111/scores.csv",
+      "sha256": "6b332c8085efd08c3df43542cbd27cba45dd682b31267fc1db552e8acf427967"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1018/000/scores.csv",
+      "sha256": "f04aa29bc98a5892e9ead4e45c176892fa2987960856918fe4aa6f3ed295349e"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1018/111/scores.csv",
+      "sha256": "e981f7e5eecf5fbdf956ce9bdbf11210f1ef7d7453011b0956a59eb9401f5750"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1019/000/scores.csv",
+      "sha256": "c92b24972859865b30a3b4821b9dc8e605f9fd7f995b5113ae9d9912dcd07969"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1019/111/scores.csv",
+      "sha256": "0cdfd38e9dc69e2cc0fcc17cf518f530c7a728bc3f69511911ab69c7e296b4d4"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1020/000/scores.csv",
+      "sha256": "e3a570cf9f650c2625cefa260b2e3b6909c7e2a997f69b3d6a84b9f40bb5acce"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1020/111/scores.csv",
+      "sha256": "2ac05b217c1e31a03cbcba0f2440068a2e6112963cdf286fb5a88c739b4ba2fa"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1021/000/scores.csv",
+      "sha256": "96a7af50c90eb369651c56ea5f78ba1573d976a2b23845a35e4853832ff5a958"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1021/111/scores.csv",
+      "sha256": "6a9f17459223a1ce5b6153b4decc572ccda0a76e9edf7489698e1b1f560b1501"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1022/000/scores.csv",
+      "sha256": "8b5ce64fd33c0e0dc5694773b06fbfdbfcbb2dbbf3a2054cfe3643d38816adf9"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1022/111/scores.csv",
+      "sha256": "c7bc3f15709fd782be8e911f8be574b1c691f6d0f2956c9ac764a602ea34b813"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1023/000/scores.csv",
+      "sha256": "e34517930da3e72033ddbe26571f64a78678662adf1b9b08a8e688e19213478f"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1023/111/scores.csv",
+      "sha256": "4b05dd7a241f80b2e1d70903d7e3d25e2ab27abbce971b6f18f57e02c7941f16"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1024/000/scores.csv",
+      "sha256": "7844a4cf00ad5e0b1ac3ab4beaf18ee2810d30af47ce5776e7e6b8dd7c0ef8ec"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1024/111/scores.csv",
+      "sha256": "7d479f88aedd644f991bb426be4ebeb81bb45fb07edf8d0351f2d9c10fad563b"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1025/000/scores.csv",
+      "sha256": "9906179ead30776b03ac1ebbc79a8b163b71ef93cd5be21f6023826aa89275ec"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1025/111/scores.csv",
+      "sha256": "a7e20c42bc1828ef738d63d810ecfc86f6c824d75fe869814398f4b1371e73c6"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1026/000/scores.csv",
+      "sha256": "e168249db209322f084d67d03122af112ef9843e2c327957f93a6542cfeeaa40"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1026/111/scores.csv",
+      "sha256": "c5766cf52708f9f502f3606a36a2b8519e24f1dede7e2a7e7885cf082c9d88f8"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1027/000/scores.csv",
+      "sha256": "6f46b63ed839b83ad67df43723c64d286a2102198569a01ff518a5d366e76640"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1027/111/scores.csv",
+      "sha256": "6151db500d36e4e17c72812c5971a180e06d2c48da56a5edb97dae4b81214654"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1028/000/scores.csv",
+      "sha256": "a015ceb901f8da977dd39b84e10c1284626eb3fd93df6a1aeb7a004bbb4d67ff"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1028/111/scores.csv",
+      "sha256": "6b581e5e4b528853acfdfd9995dc24aa3531f79807bbbb36460b6de2aa02d046"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1029/000/scores.csv",
+      "sha256": "fa15dbe7e4e0cc78f30aefe5f7fa2e73c4946dac371eff11fc5bd8a8d27be406"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1029/111/scores.csv",
+      "sha256": "2bde77533ed5ee408534c3767a883b54cc862d3726d6a66a6d2214a329f66247"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1030/000/scores.csv",
+      "sha256": "04bd85c1429938e6786c94b9fb6e60434ee2ff6501f2ab16324750442b4fdb73"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1030/111/scores.csv",
+      "sha256": "56ee419b3a2c7dad62e94c3f405e2d47cc92962c432e87111357a8251366b300"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1031/000/scores.csv",
+      "sha256": "f10e41d7911ee513891ba487b5864a3d3625f083071b5dbde238913d5cccaac1"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1031/111/scores.csv",
+      "sha256": "d84d4752aaefb80e0cc6e557c5c830adb2d3b32c0e512534deca3e55cdb20dbd"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1032/000/scores.csv",
+      "sha256": "80623c2137e37570e5db056225b4290bbe3c3c2f63aa2be993970f41f8f466e9"
+    },
+    {
+      "study": "probe1200",
+      "path": "seed-1032/111/scores.csv",
+      "sha256": "2e68f7409dac7900420f12bb53acd753332fc2e713fff5fc76cb751739181284"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1001/000/scores.csv",
+      "sha256": "4932fafeb18d90ba643b0d52cb9b0c5fa3f4893dc7881d3f253c9f0c9543f62f"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1001/111/scores.csv",
+      "sha256": "48c591b648e5a711eb417aaf89277fa93529a6ecbb61dc221223cb4ba419e6a0"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1002/000/scores.csv",
+      "sha256": "bc0c64d6937789c82835aa2c2ce97c5cc3aa0663287f005e99953768f0352645"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1002/111/scores.csv",
+      "sha256": "7e92770d8d9ad0dc30ccbe2a715cfdfc6c33da71c17b44e0ca29d324bc340593"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1003/000/scores.csv",
+      "sha256": "b1d880a9a478365ccee3e5ebe5c01d0e69b4ea34dd85932a4af0b9286afc1b17"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1003/111/scores.csv",
+      "sha256": "5895ea43391ce821990324451ae1256103f2b7f5ae1d2d3c3470d49fca84b02f"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1004/000/scores.csv",
+      "sha256": "84335f079572e6c59d49ef4fbf5c9881be25c9b77d55a75b3e083f0a9b33fd13"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1004/111/scores.csv",
+      "sha256": "7a3bd380e94f748599a7a7c6a0e14eb8a5415eac9936462ce7dcf5ac7777c389"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1005/000/scores.csv",
+      "sha256": "8a1b8c151dbbb894509d3794ff287fcd28229cb1ff6ef21fdbddf72eb39fc2ae"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1005/111/scores.csv",
+      "sha256": "1c07e46248995b69d8d53722e6fb1d04ae98b4c59718c0fa21ba13417a6ad9d4"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1006/000/scores.csv",
+      "sha256": "8d001d6177b262ce89947ed11cbe635c8858f742e030447de4f779b409666737"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1006/111/scores.csv",
+      "sha256": "e397ec461c032d20916544e3d12f5b93f274933d1011c430f6a4e17e9f84248b"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1007/000/scores.csv",
+      "sha256": "80b3d3f051475336b06ce3cb1edd2ce75fc7d3898593b830f229ad1a57fc63d7"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1007/111/scores.csv",
+      "sha256": "914d70cfa55dbdeffefe918a0fa0fd8a45aba9861ccd88768c9aa75aeec160fd"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1008/000/scores.csv",
+      "sha256": "eb84d49f44267e7c3c9daf52b472811f173103d0ceaa3410ed83f60b2416bbc8"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1008/111/scores.csv",
+      "sha256": "8f1e7019d65c1f35d23a2fbad1eba96afef9c8af826ba4bff7bd3d9a2c974ed0"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1009/000/scores.csv",
+      "sha256": "cafeabfc766786864190809a2b8500f2cbfc65c5c4e504d74bbf384d7df0cbfc"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1009/111/scores.csv",
+      "sha256": "3cc9b14eb1ef78e1498d1c76ecc2d244c633d312f16ceb3e140c51a2168e72a6"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1010/000/scores.csv",
+      "sha256": "5604ad238d6c922212802407de87b9c7593c57f7a2f238e93f2ce8d71b80e519"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1010/111/scores.csv",
+      "sha256": "c980aa8b4c6eab57971d7b8a796676d0a4966e498d2b000bc581e7e12e428078"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1011/000/scores.csv",
+      "sha256": "9265f9311f808885b3e151b94ebe47c47af56e057eb8fd2edfb64f931343af77"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1011/111/scores.csv",
+      "sha256": "e282c81d900b8d25f4b846abd9151fc991f6c2084196a1d2beb5d7ecaa91d9e1"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1012/000/scores.csv",
+      "sha256": "0c24eb065c91c7048d097e412498fe511f9bc17340c7822c86a60208f1e2dbd3"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1012/111/scores.csv",
+      "sha256": "d38064308018ec2d9dec40b28e7f910ec192237321482380e86512cad6058c13"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1013/000/scores.csv",
+      "sha256": "9acdf796e242a7c825b65d3d07d4e328ee491cddc822186252130e3319078bdc"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1013/111/scores.csv",
+      "sha256": "b4b64330d6428dc04fc0fd1dbd9e27293f683f76166ec8dafe92648a464c735b"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1014/000/scores.csv",
+      "sha256": "cd560fa0c549f6d48def0d810b24e301220fa25038f791ed1a3328bd944f9447"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1014/111/scores.csv",
+      "sha256": "0067e081815dee375ab5086b49da34a354ecf76ec3476855e3046973c729b639"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1015/000/scores.csv",
+      "sha256": "c5f640eeb6605f1954bf69bf0d2537452c1411e9f99b0bcc7039a0327e433377"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1015/111/scores.csv",
+      "sha256": "9729abd6ddd1801b784d7b6aa4e64c4ed967191857bc07661b281d3ab9e47ff8"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1016/000/scores.csv",
+      "sha256": "92a0824badc9bab0ffc404236932ff4607054c7a061ea23ac9884e1b5663b663"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1016/111/scores.csv",
+      "sha256": "4aacda47d9e584371f0f96daf6d5a68438da2ac8807724809baf0568a8145f6c"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1017/000/scores.csv",
+      "sha256": "8c0ff5672329b5794cc36533695e5c5f9d90cf0dcd8939776f1d914bb5d34178"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1017/111/scores.csv",
+      "sha256": "f0e81326d7916c14a08abdad0fb0e3829d9e9096c92f633eb987524f22d2e864"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1018/000/scores.csv",
+      "sha256": "1a08b964765561e891cb1cf2a66d9164db1b5f933accbdcb0b75a95a507435c7"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1018/111/scores.csv",
+      "sha256": "b207d7cafb70b83fff93f2fce73ee748f57c132c690071dbbc582fa7b94f587d"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1019/000/scores.csv",
+      "sha256": "ef21665d10ece3be9ff0678e49dc10bb3f6576a12e654d5c17f8bb3e9dfb9ac8"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1019/111/scores.csv",
+      "sha256": "89187a34d78d60de2b3459768c1fafdf9d5707cc3b6e79a161af211f89b1bd28"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1020/000/scores.csv",
+      "sha256": "6d16c29c879e485bbf6c501423339275fd847941dc96ad7a2456f76de1b77b9d"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1020/111/scores.csv",
+      "sha256": "33e0376ce75959e7237fc08aeeb8d6fee87c0f9fba32d87d5dbd1477a142479a"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1021/000/scores.csv",
+      "sha256": "9b5416f7e578160366f21617cc48e3c69abd8ef99276f8833fb430f465fcdf12"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1021/111/scores.csv",
+      "sha256": "fa60ecbe250645716c48d04ae36c6690b7d49b4e07a641eb01441ab3f0437b9c"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1022/000/scores.csv",
+      "sha256": "9fe02776ad5fd68974b56b103bdc0f4cc3ccb401972066574cbd4ba8de5f032e"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1022/111/scores.csv",
+      "sha256": "dd230937863d6efc86615dea4c029083985a75be31650b195b0d15ef1d478cc9"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1023/000/scores.csv",
+      "sha256": "1ca29d22118fbdabc3b7d623f0f94859fc48161d88eaab9b081f666dcb497fac"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1023/111/scores.csv",
+      "sha256": "12fa77485ba8f9efab3191b32868d0617f405462a2a3a4ee4eee61575b4c822e"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1024/000/scores.csv",
+      "sha256": "a1b9cd40ccb0ab273d62003c3f87360cb2c11ff8feff6e7618ff9a771811c9e5"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1024/111/scores.csv",
+      "sha256": "7b0c6c079a70c38a1cb47217ad3544018c812929a5982df698bb854a428e2cbb"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1025/000/scores.csv",
+      "sha256": "686eeb3a324cbbad1fdd6f05227498968d604746520bdc599bad81d6a3e027e5"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1025/111/scores.csv",
+      "sha256": "592159e282fd5d40fd3d5c482b5f2ab905a247116c229868344b5b3b07776e4b"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1026/000/scores.csv",
+      "sha256": "cb3d680a0b3d177fa60aac9253e5f2d44ee9d2a249ec82cca6ead3ac9e581e3a"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1026/111/scores.csv",
+      "sha256": "593a6bfaa1f9ce39e302873c5d764355b6651212308f677d5f6c5ea25a11efc8"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1027/000/scores.csv",
+      "sha256": "6ad1ccb8d2ba074266b48cab46daba8f46e35308f6a469c46382c0ed28464b75"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1027/111/scores.csv",
+      "sha256": "f8bded81bb210c9c989114adefcf37996602c11fc51c29e82774461aa408f6a0"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1028/000/scores.csv",
+      "sha256": "6689ecf6094a19a3038ba45e4a1134f3e24fa82fa92cbfbc48dbb9dcf3ee8f16"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1028/111/scores.csv",
+      "sha256": "dbcac756871b1aee93ec94eac4db68c543040190cb69eaaa0ab96808069579c9"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1029/000/scores.csv",
+      "sha256": "8294615cc984b5ca0766e5e1e461b13cbffb8e752cc8bbce2eb8c64ca9849761"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1029/111/scores.csv",
+      "sha256": "aa31974f813a1577e05680917023040e6af429be7b415c0ed560b5a5ea2f03fa"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1030/000/scores.csv",
+      "sha256": "447626622f2082eea74baf4ed92883bf5fd1b77495964417c8409e82b87554ae"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1030/111/scores.csv",
+      "sha256": "8e3dba33e88bd27bd2ac2952567c0bbe6224dab30d4819f6739cab39be86fadf"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1031/000/scores.csv",
+      "sha256": "1873fcfd75423a1a6392560d0e7b7d19254c80568c6939611c364620d95e3468"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1031/111/scores.csv",
+      "sha256": "cd8fec41eabeb4d0b815f31672cc3e15a5192779275f0875026a97f1f4dfdb54"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1032/000/scores.csv",
+      "sha256": "9414a444c3b0b529581e595c0ffb4ce5dd8f1f3d25bb47381c7870bf60642d34"
+    },
+    {
+      "study": "eigen-highpowers",
+      "path": "seed-1032/111/scores.csv",
+      "sha256": "23894428ffb322542cb2fc9f7d10a60a4f77ed0ac6c2a2b6ac945cfde4f68c23"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1001/000/scores.csv",
+      "sha256": "a67464adcd7f2ad77c63f940b9882795d092bae43419d809a8214008ad9f33b3"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1001/111/scores.csv",
+      "sha256": "02ec27de9844a2a9a32571317da674dedd867077c8cdcc3a91b2d59267c1878b"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1002/000/scores.csv",
+      "sha256": "95842cc67c476d73e0b2c4850562c882f7e08ac8c058442fdd13f0260d581c24"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1002/111/scores.csv",
+      "sha256": "7ba2d5c12ba832377162952f4bc4476f3f24497b05f79c67bde32e9911d79036"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1003/000/scores.csv",
+      "sha256": "1a6892b203ac792509a30d946c97c1920cd1e4e75cd00fd165ad36c57af4d174"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1003/111/scores.csv",
+      "sha256": "2c9793c802ecbc3a37174879f299679f158cf29c589cae72ca0c16bdcf5551ad"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1004/000/scores.csv",
+      "sha256": "f8a4a3f1eb8e97378b64bdd6dc7afca9e21d1693a8a3cffc276fb08504d6cd79"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1004/111/scores.csv",
+      "sha256": "433432c8865039e8affa08d2c34b0ad728c898c51a0f0d8b8fc3f9cd5e72c8ec"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1005/000/scores.csv",
+      "sha256": "afe3ca950d7c9d8885491f3b7741b6c9fd8ee9b0559b988327fff6dddaee204d"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1005/111/scores.csv",
+      "sha256": "8951ecaa566d6d19897d43d283a17e63818d8646d3a6673762888c336c86f636"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1006/000/scores.csv",
+      "sha256": "0ee04e3477bd9b44575e61e1dddeea40771f9213d3645ac8243b0d8dc01a541e"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1006/111/scores.csv",
+      "sha256": "fa5b4bbc34010996bd1d89851fe2a05b6df7efedbe14024ed8198a10d935c20a"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1007/000/scores.csv",
+      "sha256": "c5b5df5e33bd3779e01001beb9f1bd7b0a3ab36d18a13a96f3506e0904aa4872"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1007/111/scores.csv",
+      "sha256": "937b85a2e309206924616605659a00da4afaabca3c0ac38ecc93a613f6286118"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1008/000/scores.csv",
+      "sha256": "3ecab9dae0380b4258e2e32bc51243837112eb8c46fc7b6faaf298b6f8a0f55c"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1008/111/scores.csv",
+      "sha256": "eb6ace342aa7c856c2dd7416a1f3889938bcf244fdab43f3c07193ce15c7ab39"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1009/000/scores.csv",
+      "sha256": "e7b2e55ed1aa6785c62b2dba820e482977f610cbe6d19a64fc65e7fe5bbb3e3c"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1009/111/scores.csv",
+      "sha256": "fb6f4da8581c3d690ba1123c722d1c2bb5156ef2ed3fb3630d660b936eb0724e"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1010/000/scores.csv",
+      "sha256": "d3149586d6b1ac2d29b92d488b161ea00fbe81a0162a025fdf8e1f424d7fb0b5"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1010/111/scores.csv",
+      "sha256": "5b635630342830193c625e9c876783d91a11fada2acd11664ade3680532729af"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1011/000/scores.csv",
+      "sha256": "7e654a5ebf73cded0a2e47bdab639914bce387d6679871801b02400d95a8c8dd"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1011/111/scores.csv",
+      "sha256": "0401171dcff9e243f6a34569d1cab822434074d9f5e79f8b73836906763d04f4"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1012/000/scores.csv",
+      "sha256": "083f43e0dfbf7ee61c2803c992274f59043b80a9fbb7eb3271103609d94d5ccd"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1012/111/scores.csv",
+      "sha256": "b9670ab5263a6b5bf5050e4f6852de68d6998a42679be148b9325098b8ec0f8c"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1013/000/scores.csv",
+      "sha256": "326659692deee4f1d5cd331048ea0c3135e5a2f46f585b9a161487d768e6d9cb"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1013/111/scores.csv",
+      "sha256": "44b956227a1189ec56e9fd69332f6b7f56b9667a840e10cd7353cfeb2b994141"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1014/000/scores.csv",
+      "sha256": "3a2788240004ef991d281bfa167d0aad75bc7f0171fdbbf8c8dc933578ac13e9"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1014/111/scores.csv",
+      "sha256": "4dd4cb39684fd6cb328d8464ba7e7f379ba2e804e825325ae079639035a3394e"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1015/000/scores.csv",
+      "sha256": "525cc6b29f8259bb52156db038b1ba5c0ab507d14738593f8576504e9c7ec3a1"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1015/111/scores.csv",
+      "sha256": "28eaecdb95ffb942091df961a155f8c42581b94c1627c2dd1f8624aa4eb15d3d"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1016/000/scores.csv",
+      "sha256": "4e6c4162885291d787d06472ba7d5edad0c1a4b596a60d903db48fdc19636105"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1016/111/scores.csv",
+      "sha256": "c176eb8686b552cecbf7e5e5cb2fd53b051de0414906ed210218d3338ed11d84"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1017/000/scores.csv",
+      "sha256": "bdce35790cd49a44d4ee1164928b21449f7c94e10a358b762e98efb9cf825827"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1017/111/scores.csv",
+      "sha256": "987c10d8e0ce70828109a5bd276802f34800623c63fa11b1d302eaba3b46fa55"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1018/000/scores.csv",
+      "sha256": "6d80adc8d0a96f4ff1c43dc9ae1a75fe1990731494dfe09b60685588d88bea0a"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1018/111/scores.csv",
+      "sha256": "5ce4081fdb0347082e893e19d4b143a75ebf3fe9be9ef1f918d44bf041130695"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1019/000/scores.csv",
+      "sha256": "4f9253f5352a243c4b6af27e29e61209b5e9e3a180bc8f32ee3cabfd9e93a533"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1019/111/scores.csv",
+      "sha256": "8923b468d5f4250bed66f6baf1d46914e4ff76585319ec2331fe4876758eeb83"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1020/000/scores.csv",
+      "sha256": "e4143a271212063ca9321d74e9acfa7b6f2876ab4d522b4f758b142f19bccc4a"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1020/111/scores.csv",
+      "sha256": "92558d1c5c1a710d38d3f467253478b2985264e7c09a5af108d4b8510ddc83c9"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1021/000/scores.csv",
+      "sha256": "9205a7fb76a5cec55bf0ca4b655e502af4fdc1da575deb2c70ab925bf5408969"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1021/111/scores.csv",
+      "sha256": "1c5899800a6e654a8e8dff5962efefd1d3670506bba38d686de26a4a46dd9f58"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1022/000/scores.csv",
+      "sha256": "5d6cbb5b07bfaac703e9aee5bf9723aa4b04cb5933620bc651118999bce2daf4"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1022/111/scores.csv",
+      "sha256": "2bd14b4753ffda3252bf76b66c6d040598ce087fb7ffe2d3c6f8e25a0ed32a4b"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1023/000/scores.csv",
+      "sha256": "da578e768c572acac743aec2d2164fcb34f06f1c3787196e76d96d25aa860984"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1023/111/scores.csv",
+      "sha256": "8220c1a778e5417b899e61948096089bf64cb5b1df234b6a864f174a99a3b361"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1024/000/scores.csv",
+      "sha256": "f118681623e79d471ab4185d82ef2c76eea6e31960449fa1c1b263af36395e10"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1024/111/scores.csv",
+      "sha256": "c672256a9d72e82e87b35efdceb1c4a646c80196aa308c2a01bbf46c494f7fef"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1025/000/scores.csv",
+      "sha256": "f85a0bfc88a8944f38b7d6c4edffd42389876ec5ebbc847a717f04dc1b55ea4c"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1025/111/scores.csv",
+      "sha256": "971d4970ad520b57889e04e0213ec6d652360bcecaa71338f75932f9a4bbf41a"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1026/000/scores.csv",
+      "sha256": "eb556b369615455c0b10b7ab04a9874137b6c59283df27a4407b6928a20d2ab4"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1026/111/scores.csv",
+      "sha256": "5ec99a41bc590aa6b49916c662f8e6f1449f28f34fbe25c8c53ffeea619525cc"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1027/000/scores.csv",
+      "sha256": "00a856e733d7a665d1a712e428b275d8d4a87be4e47729082ecaa7d89c00e929"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1027/111/scores.csv",
+      "sha256": "b1b4a2ced1bb7c06306fe2ccedde6f04d5f4e13734f1accf5db016242109c286"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1028/000/scores.csv",
+      "sha256": "66f6a99b32afca1a29d477f78342c9fb184e74db1966226ac3d7c23a1381c1df"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1028/111/scores.csv",
+      "sha256": "7a34f350ba6e9592c9b0aa5fdb1375202f727de2275748f4bfa18270e7a99a5a"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1029/000/scores.csv",
+      "sha256": "b3ae17af9db889ed9a50b819e13bc9dc1d953701ce8c5a30c3f7e8c12c76ffa2"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1029/111/scores.csv",
+      "sha256": "b3a3694678427b23aea41d9ef404f88532c0ca87a7272fd2c10b4dddfb8efe0e"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1030/000/scores.csv",
+      "sha256": "75822b3ba227728e6f2c5b0b6b577262d93607fcd7512469c22cc005b50f8fea"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1030/111/scores.csv",
+      "sha256": "b84d386c2facacf6153c1b1ea68233d0db993129a0ec97e5b04cda9084ce126f"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1031/000/scores.csv",
+      "sha256": "848cf7c86845477ff6e622af7f8930480b6454149beab4dd2f11768d04d8a1c7"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1031/111/scores.csv",
+      "sha256": "e5e1b86a602e5a41d2a27dd2655b788f6235c036ae103475744a3bb5b8075dba"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1032/000/scores.csv",
+      "sha256": "1a457ba53658deb05be862ae01b9f7b69c2d2c95a8e2ef608d4f4cba886af024"
+    },
+    {
+      "study": "q256",
+      "path": "seed-1032/111/scores.csv",
+      "sha256": "e6f21a90e834dd32ed4dd8b934af7b328e494e2ada21cbe5c68be2db21d0d39f"
+    }
+  ]
+}

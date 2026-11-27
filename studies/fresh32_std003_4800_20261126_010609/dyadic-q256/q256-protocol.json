@@ -1,0 +1,42 @@
+{
+  "parent_run": "fresh32_std003_4800_20261126_010609",
+  "mother_models_retrained": false,
+  "targets": [
+    "q256"
+  ],
+  "powers": [
+    256
+  ],
+  "full_display_grid": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "probe": {
+    "steps": 1200,
+    "batch_size": 256,
+    "learning_rate": 0.01
+  },
+  "features": "full 2*d query token at input 0 and layers 1-4",
+  "splits": [
+    0,
+    1,
+    2
+  ],
+  "selection": "validation only; fixed and random initialization",
+  "data_source": "/content/drive/MyDrive/power_iteration/analyses/fresh32_std003_4800_20261126_010609_probe1200/verified-probe-data",
+  "true_target_source": "saved eigenvector_reference from the verified parent probe-data audit",
+  "high_power_source": "power iteration on the same encoded X and initial vector, normalized every step",
+  "negative_control": "permute fit and validation labels independently; score against true test labels",
+  "versions": {
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.4.6",
+    "torch": "2.14.1+cu130"
+  }
+}

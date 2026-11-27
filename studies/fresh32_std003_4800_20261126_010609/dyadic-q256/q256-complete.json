@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "pairs": 32,
+  "models": 64,
+  "scores": 960,
+  "targets": [
+    "q256"
+  ],
+  "probe_steps": 1200,
+  "mother_models_retrained": false
+}
