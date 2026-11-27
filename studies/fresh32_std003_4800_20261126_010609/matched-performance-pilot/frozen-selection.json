@@ -1,0 +1,47 @@
+{
+  "level": 0.75,
+  "pairs": [
+    {
+      "seed": 9003,
+      "111": {
+        "step": 7650,
+        "samples": 8192,
+        "mean_error": 0.25011235558793854,
+        "mean_similarity": 0.7498876444120615,
+        "failures": 0,
+        "at_99_99_percent": 0,
+        "mean_angle_degrees": 27.642900246315307
+      },
+      "000": {
+        "step": 2950,
+        "samples": 8192,
+        "mean_error": 0.25043323405294804,
+        "mean_similarity": 0.749566765947052,
+        "failures": 0,
+        "at_99_99_percent": 0,
+        "mean_angle_degrees": 27.904315636806928
+      }
+    },
+    {
+      "seed": 9004,
+      "111": {
+        "step": 9100,
+        "samples": 8192,
+        "mean_error": 0.25008722225373703,
+        "mean_similarity": 0.749912777746263,
+        "failures": 0,
+        "at_99_99_percent": 0,
+        "mean_angle_degrees": 27.484922337081315
+      },
+      "000": {
+        "step": 3650,
+        "samples": 8192,
+        "mean_error": 0.24994007198242463,
+        "mean_similarity": 0.7500599280175754,
+        "failures": 0,
+        "at_99_99_percent": 0,
+        "mean_angle_degrees": 27.897217980825122
+      }
+    }
+  ]
+}

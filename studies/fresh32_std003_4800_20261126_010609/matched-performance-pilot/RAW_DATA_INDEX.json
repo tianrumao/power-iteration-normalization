@@ -1,0 +1,149 @@
+{
+  "raw_arrays_embedded_in_this_bundle": false,
+  "persistent_raw_array_directory": "/content/drive/MyDrive/power_iteration/datasets/matched_pilot_20261127",
+  "note": "Actual raw .npy arrays remain in Google Drive. The archive includes the complete generator, exact split seeds, per-array digests, model checkpoints, validation histories and per-sample evaluation results.",
+  "dataset_manifests": [
+    {
+      "specification": {
+        "data_epoch": 20261125,
+        "d": 32,
+        "n": 64,
+        "train_size": 65536,
+        "validation_size": 16384,
+        "test_size": 8192,
+        "probe_samples": 3000,
+        "max_power": 16,
+        "generator": "unit_gaussian_columns",
+        "version": 2,
+        "seed": 9003
+      },
+      "cache_identity": "04e751e5395763a33d07",
+      "splits": {
+        "train": {
+          "samples": 65536,
+          "input_sha256": "63548acb247095ae8e2a26fc6bca5969747140671167a9e68f64b53a83c6d98d",
+          "target_sha256": "4d31922437b19b5f4c08d7515a6b407465afe49f722b91c9c0dabc7d3fba46b4",
+          "input_shape": [
+            65536,
+            64,
+            65
+          ],
+          "spawn_key": [
+            0
+          ]
+        },
+        "validation": {
+          "samples": 16384,
+          "input_sha256": "ab779e6a86e0eeb15a16dafd62ab6ffa4902aee3d7af8b475d3bfbf9ed0f411d",
+          "target_sha256": "df1a4cbaec1887283d12aa396738a30c0bf307721f2c64bbc4aa0b6198a93ea5",
+          "input_shape": [
+            16384,
+            64,
+            65
+          ],
+          "spawn_key": [
+            1
+          ]
+        },
+        "test": {
+          "samples": 8192,
+          "input_sha256": "4f74a208ff0248377f077b961290d3f5d7dd8b26037debe3b9aa241d0ca5102b",
+          "target_sha256": "8fd4e3f34d759bfa9970809afd8e386cacf077002d3f817f87467ec7192423ce",
+          "input_shape": [
+            8192,
+            64,
+            65
+          ],
+          "spawn_key": [
+            2
+          ]
+        },
+        "probe": {
+          "samples": 3000,
+          "input_sha256": "23f207b9bdac8312b66c4b6bccf79e10f279ae5ab2694e5b556d95e9c138e8f8",
+          "target_sha256": "eaeac8fc05c07be0124f0eefb311234518e61e2db83c6ff69457c675ab0cee28",
+          "input_shape": [
+            3000,
+            64,
+            65
+          ],
+          "spawn_key": [
+            3
+          ]
+        }
+      },
+      "power_sha256": "311f78a0b240af9e6b96cf7c1f4147d1dfb0152117158756419fc3350a389154"
+    },
+    {
+      "specification": {
+        "data_epoch": 20261125,
+        "d": 32,
+        "n": 64,
+        "train_size": 65536,
+        "validation_size": 16384,
+        "test_size": 8192,
+        "probe_samples": 3000,
+        "max_power": 16,
+        "generator": "unit_gaussian_columns",
+        "version": 2,
+        "seed": 9004
+      },
+      "cache_identity": "72597e2d976d6fb4e665",
+      "splits": {
+        "train": {
+          "samples": 65536,
+          "input_sha256": "bfa677f13fb48051312d477abb8b44fc20a2a9b46898bb8264184a74b8007c16",
+          "target_sha256": "f3f795686c1d84469a23a18694c202bc0449968014aee5d90811efe6d28af223",
+          "input_shape": [
+            65536,
+            64,
+            65
+          ],
+          "spawn_key": [
+            0
+          ]
+        },
+        "validation": {
+          "samples": 16384,
+          "input_sha256": "0c6ea54804aaf1f312dced1418fe2c2c8389cf0b96e35133332211349a0aee9a",
+          "target_sha256": "cff3288fb04ff775fd6e6aea3ca302725ea51a081d63523d1794a032f28551ca",
+          "input_shape": [
+            16384,
+            64,
+            65
+          ],
+          "spawn_key": [
+            1
+          ]
+        },
+        "test": {
+          "samples": 8192,
+          "input_sha256": "4b12ad5920b444b2c05e92e269a947be991e24baff41ae9519bdb79052f6e8d9",
+          "target_sha256": "b18b80181069d4ceec71908c793a099d955bdb6898bda7f3e07fec3d8a04eabd",
+          "input_shape": [
+            8192,
+            64,
+            65
+          ],
+          "spawn_key": [
+            2
+          ]
+        },
+        "probe": {
+          "samples": 3000,
+          "input_sha256": "e98d953054b101a2a45e93ae562e1fe0447f8de83483bb39b0a9820c64cecb9c",
+          "target_sha256": "29d7f130c39053598df262b29cd15598c25fb1a4068c37a18cc9b123002e2d0a",
+          "input_shape": [
+            3000,
+            64,
+            65
+          ],
+          "spawn_key": [
+            3
+          ]
+        }
+      },
+      "power_sha256": "9abb0810fad857e0dfb58baa0c3c834a3aeed99d827f569cbb39eb5e2cc43da2"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "status": "complete",
+  "matrix_hash_policy": "exact SHA-256 of encoded X, excluding the independently random start a",
+  "training_performed": false,
+  "numerical_scope": "all coordinates in input and four layer states on the first 128 held-out test samples per frozen model",
+  "records": [
+    {
+      "seed": 9003,
+      "splits": {
+        "train": {
+          "samples": 65536,
+          "unique_matrices": 65536
+        },
+        "selection_validation": {
+          "samples": 8192,
+          "unique_matrices": 8192
+        },
+        "confirmation_validation": {
+          "samples": 8192,
+          "unique_matrices": 8192
+        },
+        "test": {
+          "samples": 8192,
+          "unique_matrices": 8192
+        }
+      },
+      "overlaps": [
+        {
+          "split_a": "train",
+          "split_b": "selection_validation",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "train",
+          "split_b": "confirmation_validation",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "train",
+          "split_b": "test",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "selection_validation",
+          "split_b": "confirmation_validation",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "selection_validation",
+          "split_b": "test",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "confirmation_validation",
+          "split_b": "test",
+          "shared_matrices": 0
+        }
+      ],
+      "models": [
+        {
+          "mask": "111",
+          "checkpoint_step": 7650,
+          "checkpoint_sha256": "f47b1a289c5f78a9dbec8263ea2c402eb5d9df65fcfd0920fb71b8377413c610",
+          "unchanged": true,
+          "layers": [
+            {
+              "layer": 0,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.1420479594865471,
+              "median_log10_column_norm": -4.902325767552895e-11,
+              "max_log10_column_norm": 1.1526588600263565e-08,
+              "zero_columns": 0
+            },
+            {
+              "layer": 1,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.17303519865312209,
+              "median_log10_column_norm": 0.0,
+              "max_log10_column_norm": 2.7755575615628914e-16,
+              "zero_columns": 0
+            },
+            {
+              "layer": 2,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.19217935316291146,
+              "median_log10_column_norm": 0.0,
+              "max_log10_column_norm": 2.220446049250313e-16,
+              "zero_columns": 0
+            },
+            {
+              "layer": 3,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.268287804281871,
+              "median_log10_column_norm": 0.0,
+              "max_log10_column_norm": 2.220446049250313e-16,
+              "zero_columns": 0
+            },
+            {
+              "layer": 4,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 1.389511791159441,
+              "median_log10_column_norm": 1.3523468710877866,
+              "max_log10_column_norm": 1.7855298243281665,
+              "zero_columns": 0
+            }
+          ]
+        },
+        {
+          "mask": "000",
+          "checkpoint_step": 2950,
+          "checkpoint_sha256": "9e3057e939be40a35b7e265f1dcb010322f0b9ff4003871b88eb46b7c229691c",
+          "unchanged": true,
+          "layers": [
+            {
+              "layer": 0,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.1420479594865471,
+              "median_log10_column_norm": -4.902325767552895e-11,
+              "max_log10_column_norm": 1.1526588600263565e-08,
+              "zero_columns": 0
+            },
+            {
+              "layer": 1,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.04773403139191066,
+              "median_log10_column_norm": 0.10916512883060162,
+              "max_log10_column_norm": 0.197157166614284,
+              "zero_columns": 0
+            },
+            {
+              "layer": 2,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 0.5493852245873847,
+              "median_log10_column_norm": 0.4822565765171196,
+              "max_log10_column_norm": 0.9104116885724235,
+              "zero_columns": 0
+            },
+            {
+              "layer": 3,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 2.77469484603038,
+              "median_log10_column_norm": 1.924955076933781,
+              "max_log10_column_norm": 3.2337391431764404,
+              "zero_columns": 0
+            },
+            {
+              "layer": 4,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 9.535016398429674,
+              "median_log10_column_norm": 6.788083466971356,
+              "max_log10_column_norm": 10.07506801982834,
+              "zero_columns": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 9004,
+      "splits": {
+        "train": {
+          "samples": 65536,
+          "unique_matrices": 65536
+        },
+        "selection_validation": {
+          "samples": 8192,
+          "unique_matrices": 8192
+        },
+        "confirmation_validation": {
+          "samples": 8192,
+          "unique_matrices": 8192
+        },
+        "test": {
+          "samples": 8192,
+          "unique_matrices": 8192
+        }
+      },
+      "overlaps": [
+        {
+          "split_a": "train",
+          "split_b": "selection_validation",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "train",
+          "split_b": "confirmation_validation",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "train",
+          "split_b": "test",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "selection_validation",
+          "split_b": "confirmation_validation",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "selection_validation",
+          "split_b": "test",
+          "shared_matrices": 0
+        },
+        {
+          "split_a": "confirmation_validation",
+          "split_b": "test",
+          "shared_matrices": 0
+        }
+      ],
+      "models": [
+        {
+          "mask": "111",
+          "checkpoint_step": 9100,
+          "checkpoint_sha256": "2765acf634a9f5503ec14c9d37c7a1b22788fd9ed3fa2caa47d63d0e24e174bc",
+          "unchanged": true,
+          "layers": [
+            {
+              "layer": 0,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.15512371881788733,
+              "median_log10_column_norm": 2.494637829641988e-11,
+              "max_log10_column_norm": 1.1713157943571417e-08,
+              "zero_columns": 0
+            },
+            {
+              "layer": 1,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.19947303828144566,
+              "median_log10_column_norm": 0.0,
+              "max_log10_column_norm": 2.220446049250313e-16,
+              "zero_columns": 0
+            },
+            {
+              "layer": 2,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.27681125377031013,
+              "median_log10_column_norm": 0.0,
+              "max_log10_column_norm": 2.7755575615628914e-16,
+              "zero_columns": 0
+            },
+            {
+              "layer": 3,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.3051903039290216,
+              "median_log10_column_norm": 0.0,
+              "max_log10_column_norm": 2.220446049250313e-16,
+              "zero_columns": 0
+            },
+            {
+              "layer": 4,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 1.5144756319049055,
+              "median_log10_column_norm": 1.5280476924734923,
+              "max_log10_column_norm": 1.8370729809727242,
+              "zero_columns": 0
+            }
+          ]
+        },
+        {
+          "mask": "000",
+          "checkpoint_step": 3650,
+          "checkpoint_sha256": "5ce3b28dd50524dbc890876c6519676fb256628d6603940578d549415ccc9cd0",
+          "unchanged": true,
+          "layers": [
+            {
+              "layer": 0,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.15512371881788733,
+              "median_log10_column_norm": 2.494637829641988e-11,
+              "max_log10_column_norm": 1.1713157943571417e-08,
+              "zero_columns": 0
+            },
+            {
+              "layer": 1,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": -0.05740449012523217,
+              "median_log10_column_norm": 0.1209218849947115,
+              "max_log10_column_norm": 0.21304870123534572,
+              "zero_columns": 0
+            },
+            {
+              "layer": 2,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 0.49298652913171087,
+              "median_log10_column_norm": 0.5349871261870061,
+              "max_log10_column_norm": 0.9504902691727284,
+              "zero_columns": 0
+            },
+            {
+              "layer": 3,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 2.7880492238027617,
+              "median_log10_column_norm": 2.142027376128505,
+              "max_log10_column_norm": 3.3003685548702864,
+              "zero_columns": 0
+            },
+            {
+              "layer": 4,
+              "samples": 128,
+              "finite_coordinates": true,
+              "max_log10_absolute_coordinate": 9.749829173145752,
+              "median_log10_column_norm": 7.406458665814109,
+              "max_log10_column_norm": 10.160455177814695,
+              "zero_columns": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitation": "Exact-duplicate and finite-coordinate checks do not rule out all forms of statistical overfitting or distribution shift."
+}

@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "selection_mode": "validation-band checkpoints frozen before independent confirmation",
+  "pilot_status": "pilot_passed",
+  "checkpoint_models": 4,
+  "test_scored_once_after_freezing": true,
+  "training_performed": false,
+  "checkpoint_audits": [
+    {
+      "seed": 9003,
+      "mask": "111",
+      "checkpoint_sha256": "f47b1a289c5f78a9dbec8263ea2c402eb5d9df65fcfd0920fb71b8377413c610",
+      "unchanged": true
+    },
+    {
+      "seed": 9003,
+      "mask": "000",
+      "checkpoint_sha256": "9e3057e939be40a35b7e265f1dcb010322f0b9ff4003871b88eb46b7c229691c",
+      "unchanged": true
+    },
+    {
+      "seed": 9004,
+      "mask": "111",
+      "checkpoint_sha256": "2765acf634a9f5503ec14c9d37c7a1b22788fd9ed3fa2caa47d63d0e24e174bc",
+      "unchanged": true
+    },
+    {
+      "seed": 9004,
+      "mask": "000",
+      "checkpoint_sha256": "5ce3b28dd50524dbc890876c6519676fb256628d6603940578d549415ccc9cd0",
+      "unchanged": true
+    }
+  ],
+  "interval_note": "Approximate per-example normal intervals conditional on each frozen model; these are not confidence intervals over training seeds.",
+  "limitation": "A finite held-out audit reports evidence of generalization gaps; it cannot prove the absence of all overfitting or distribution-shift issues."
+}

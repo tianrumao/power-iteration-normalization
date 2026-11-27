@@ -1,0 +1,6 @@
+{
+  "status": "pilot_failed",
+  "reason": "no common performance band reached by both conditions in every pilot seed",
+  "test_scored": false,
+  "probes_fitted": false
+}

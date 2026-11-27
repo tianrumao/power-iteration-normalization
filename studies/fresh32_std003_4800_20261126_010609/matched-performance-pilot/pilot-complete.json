@@ -1,0 +1,51 @@
+{
+  "status": "pilot_passed",
+  "common_similarity_level": 0.75,
+  "primary_tolerance": 0.01,
+  "sensitivity_tolerance": 0.025,
+  "pairs": [
+    {
+      "seed": 9003,
+      "arms": {
+        "111": {
+          "selected_step": 7650,
+          "selection_similarity": 0.7498876444120615,
+          "confirmation_similarity": 0.74623613555067,
+          "checkpoint_sha256": "f47b1a289c5f78a9dbec8263ea2c402eb5d9df65fcfd0920fb71b8377413c610"
+        },
+        "000": {
+          "selected_step": 2950,
+          "selection_similarity": 0.749566765947052,
+          "confirmation_similarity": 0.7482270069700089,
+          "checkpoint_sha256": "9e3057e939be40a35b7e265f1dcb010322f0b9ff4003871b88eb46b7c229691c"
+        }
+      },
+      "confirmation_gap": 0.0019908714193388466,
+      "passes_primary": true,
+      "passes_sensitivity": true
+    },
+    {
+      "seed": 9004,
+      "arms": {
+        "111": {
+          "selected_step": 9100,
+          "selection_similarity": 0.749912777746263,
+          "confirmation_similarity": 0.7530346524217353,
+          "checkpoint_sha256": "2765acf634a9f5503ec14c9d37c7a1b22788fd9ed3fa2caa47d63d0e24e174bc"
+        },
+        "000": {
+          "selected_step": 3650,
+          "selection_similarity": 0.7500599280175754,
+          "confirmation_similarity": 0.7470885578026352,
+          "checkpoint_sha256": "5ce3b28dd50524dbc890876c6519676fb256628d6603940578d549415ccc9cd0"
+        }
+      },
+      "confirmation_gap": 0.005946094619100117,
+      "passes_primary": true,
+      "passes_sensitivity": true
+    }
+  ],
+  "test_scored": false,
+  "probes_fitted": false,
+  "next_step": "freeze the recipe and common target before starting independent full-cohort seeds"
+}

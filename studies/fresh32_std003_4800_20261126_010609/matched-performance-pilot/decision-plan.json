@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-11-27T17:58:09.825095+00:00",
+  "condition": "only if common-learning-rate pilot fails",
+  "norm_learning_rate": 0.001,
+  "off_learning_rate": 0.0005,
+  "norm_models_retrained": false,
+  "reuse_norm_checkpoints": true,
+  "seeds": [
+    9003,
+    9004
+  ],
+  "basis": "000 selection-validation instability at lr .001; no test scores have been observed",
+  "primary_tolerance": 0.01,
+  "sensitivity_tolerance": 0.025,
+  "script_sha256": "b3a7931f1576b4136154f3e858e8d02200be0c4e73cd2a362400915887ee8af6"
+}

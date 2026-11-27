@@ -1,0 +1,4 @@
+{
+  "shared_protocol_wording_clarification": "The original shared-lr001 protocol says test not loaded or scored. The dataset loader actually materializes memory maps and hashes all four pool arrays before training; no test predictions or scores are computed or used for checkpoint selection in either training runner. Separate audits score test after checkpoints are fixed.",
+  "interval_clarification": "Per-example approximate intervals are descriptive and do not account for model-fitting or training-seed uncertainty."
+}

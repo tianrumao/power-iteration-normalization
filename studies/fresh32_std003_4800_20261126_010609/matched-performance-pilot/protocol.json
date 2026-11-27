@@ -1,0 +1,76 @@
+{
+  "status": "pilot",
+  "parent_run": "fresh32_std003_4800_20261126_010609",
+  "independent_pilot_seeds": [
+    9003,
+    9004
+  ],
+  "data_generator": "original unit-column Gaussian X, independent random a; unchanged model and encoding",
+  "normalizer": "L2 normalization of token columns after blocks 1-3; not standard LayerNorm",
+  "pairing": "same data, initialization, batches, precision and schedule shape; condition-specific learning rates explicitly recorded",
+  "changed_training": "reuse 111 at learning rate .001; train 000 at .0005 with the same horizon and batches",
+  "normalization_111_retrained": false,
+  "reused_norm_run": "/content/drive/MyDrive/power_iteration/runs/matched_pilot_lr001_12800_20261127",
+  "candidate_common_similarities": [
+    0.78,
+    0.75
+  ],
+  "candidate_band_half_width": 0.005,
+  "primary_gap_tolerance": 0.01,
+  "sensitivity_gap_tolerance": 0.025,
+  "selection_validation_samples": 8192,
+  "independent_confirmation_validation_samples": 8192,
+  "test_samples": 8192,
+  "test_policy": "test arrays are generated and hashed, but never scored or inspected for selection by this runner",
+  "probe_policy": "no probe fitting in the pilot; full cohort only after a passing gate and a frozen common target",
+  "positive_early_layer_effect_required": false,
+  "failure_policy": "retain all histories and checkpoints; do not call an unmatched pair matched",
+  "raw_data_storage": "/content/drive/MyDrive/power_iteration/datasets/matched_pilot_20261127",
+  "config": {
+    "d": 32,
+    "n": 64,
+    "depth": 4,
+    "masks": [
+      "111",
+      "000"
+    ],
+    "seeds": [
+      9003,
+      9004
+    ],
+    "budgets": [
+      12800
+    ],
+    "schedule_horizon": 12800,
+    "train_size": 65536,
+    "validation_size": 16384,
+    "test_size": 8192,
+    "probe_samples": 3000,
+    "batch_size": 64,
+    "learning_rate": 0.0005,
+    "init_std": 0.03,
+    "warmup_steps": 100,
+    "evaluation_every": 200,
+    "precision": "float64",
+    "data_epoch": 20261125,
+    "max_power": 16,
+    "probe_count": 8,
+    "calibration_samples": 2048,
+    "calibration_seed": 20261125,
+    "probe_split_seeds": [
+      0,
+      1,
+      2
+    ],
+    "probe_steps": 1200,
+    "probe_batch_size": 256,
+    "probe_learning_rate": 0.01,
+    "checkpoint_selection": "independent validation performance band",
+    "pair_selection": "report_all_pairs_and_flag_gap_gt_0_1",
+    "gap_flag_threshold": 0.1,
+    "pause_minimum_pairs": 8,
+    "pause_flagged_fraction": 0.5,
+    "primary_gap_tolerance": 0.01,
+    "sensitivity_gap_tolerance": 0.025
+  }
+}
