@@ -1,0 +1,394 @@
+{
+  "status": "complete",
+  "rows": 1920,
+  "models": 64,
+  "label": "true eigenvector",
+  "training_performed": false,
+  "note": "Fixed coordinate readouts, not newly trained probes; initial upper query is zero and has no direction.",
+  "audits": [
+    {
+      "seed": 1001,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "a677989095e0d5ab951be1b5b7ba8d8231c40543fc2667406743e0ea0d45f857"
+    },
+    {
+      "seed": 1001,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "f9a8b9091baade1b01b1566965d0a53826212c81b513067b3c62a6757bd6e10c"
+    },
+    {
+      "seed": 1002,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "62dc4937eaa00f06eab829c2f66ddd6da0234478951b6543fb00cb161a6bce93"
+    },
+    {
+      "seed": 1002,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "a714bc40e7cd504c497ac9c1c706a7c8584eca4795a075c6feb7b9d81583464b"
+    },
+    {
+      "seed": 1003,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "df34c281940037fb886cab7876bbc8184099d159f0de69bc1765f329282487a9"
+    },
+    {
+      "seed": 1003,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "4f963b1242432d1d9dfb7fbec1e950484c678d91bdbf6c1816e68bebc76b8f93"
+    },
+    {
+      "seed": 1004,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "46ae70dcbb0d2cec33cf66a73985d86cef7726c2f59b2c60a4aa6daa125d0c80"
+    },
+    {
+      "seed": 1004,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "e8885376627fdc7cc3484f1a9a1f2eec699757a500beac73b1a4ee8e3c08f0ae"
+    },
+    {
+      "seed": 1005,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "a6ae843f012fafde5316ac152815ceae009f5aeadb13862ff72a6ff097beca1c"
+    },
+    {
+      "seed": 1005,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "e524082cbbe4cc2302972de73926ccaff1f2c96e78d1e66179729f62507ef70d"
+    },
+    {
+      "seed": 1006,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "739d9d77aca5d0667d35b93b754bbba2ddae33a53307da29211a3549323290af"
+    },
+    {
+      "seed": 1006,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "0cbf1071830dda74c56b80311f35259f88007b732eac9c71235ae686d9eb4edb"
+    },
+    {
+      "seed": 1007,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "9b86bce574caf596489ac1d232482beceec0d80db4fd0ba90bc54dab098da5e2"
+    },
+    {
+      "seed": 1007,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "8198591be893e5efacddba0eac09d5668420509be47e8f5ddbc059d8cc5d8c3b"
+    },
+    {
+      "seed": 1008,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "7aa920ca32766f9ae3e019ee1a0271bff3ea056d69429f36af698d28a4a473f8"
+    },
+    {
+      "seed": 1008,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "8dee78ffe49c1d37e4ba8f680640d14ce6b81be760949f1097cfdc708f5d2e9c"
+    },
+    {
+      "seed": 1009,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "78e275aed9058894e69eeb5b5a17d11f95d394a412e068470f804d9d155f7e83"
+    },
+    {
+      "seed": 1009,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "6abba5e9ef71246d87254c6c28ea32e1755d5d26c9e7c85bd09f73d69916104b"
+    },
+    {
+      "seed": 1010,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "7c1e596212d899ef2288ef568600ec508a13eaa9889395f8f0a7914dafa3617e"
+    },
+    {
+      "seed": 1010,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "0edebbfb0c968d8aba9e0f97374b149fd59b38270e7d493c61cb9e4c1e4274aa"
+    },
+    {
+      "seed": 1011,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "ab8d2e0a539b2c05e457cb96930dd3a597978179b95751e2e4236e35ab0198f2"
+    },
+    {
+      "seed": 1011,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "2c1d494423b6e97b1bc3170ab90acc1ad788048d3482482f53217f7a6155ee1e"
+    },
+    {
+      "seed": 1012,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "ef652a355085994b38970b1cdbf47b2959fd106d9db9934cfd04d2b99a7195f0"
+    },
+    {
+      "seed": 1012,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "abcd788008ef04d5f36ce5696a64d6b1676c5915167f02d2245449d2c345a00d"
+    },
+    {
+      "seed": 1013,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "d954f23860dca260ee147e57bce6ae7724e79f10b73788777648a91f9971459e"
+    },
+    {
+      "seed": 1013,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "571dd42568204ef4ba222d7aae862fc419d4735bab4eb6079e71748d6ad62ffa"
+    },
+    {
+      "seed": 1014,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "282a29c019bd6b82a2429dcf513add91f7366a9b4648f19aa30cddf164ee59ab"
+    },
+    {
+      "seed": 1014,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "e6802ae5c37320d761eb954f240d64c2877ebe54cc44c2847d2df17f4f068f95"
+    },
+    {
+      "seed": 1015,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "67fb21d15e0988bf3db2e6b52889bb4ab89dc9830ae8181fb03a37ef55888e2b"
+    },
+    {
+      "seed": 1015,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "db8921a55cd069db2c1477c9487ceadf16280f8bec9e9a746a3e9ec8e902668e"
+    },
+    {
+      "seed": 1016,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "abf995379e3e0bb75edd563d3f84f16b9becd2354ee297cc9836fe4a4b36e120"
+    },
+    {
+      "seed": 1016,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "874d4c9b9fa0bc7599b8512525111bb45c568781f165ff1c08e12f351eab3584"
+    },
+    {
+      "seed": 1017,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "06d3304f87c0bd68e4b7809da36b586a6daf63a6d39482c0ea063e97199bac34"
+    },
+    {
+      "seed": 1017,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "925e4b9ec2448da9cda7d9e1201de4662c318727f77c8156dd378d43ab0995d3"
+    },
+    {
+      "seed": 1018,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "d1eeb39e585efe13e11df38eb521e9becca035e42d13d82a2aeb6ee124c1d182"
+    },
+    {
+      "seed": 1018,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "9986d6c032e7bbe353130b69020595589e541b2364abae63409640514307ce6f"
+    },
+    {
+      "seed": 1019,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "31fb4f4f40d9325b18731794da3162ef493c7379a6d5d5f30edfff41766e56c7"
+    },
+    {
+      "seed": 1019,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "6a07fab482d11f017b346900b71dd1cd85f2e4a6742f79e19d611b4c46864628"
+    },
+    {
+      "seed": 1020,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "f4c4eca5795f5b0d399895c3c1d3f3fa0c58daf192965de1e9ce8cd6934dca95"
+    },
+    {
+      "seed": 1020,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "ebd97e8961a4102a1a004817a8a3eabb974403eee1e075f6cb1ae47b01507119"
+    },
+    {
+      "seed": 1021,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "3d04def962de5228d31bcb50e07f8af1fb784af3cf8561582a81c84043c705bf"
+    },
+    {
+      "seed": 1021,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "0fc6b4e008aa7dc56ee2bcffe0fbb8488619dfdaa3beb310474ad2ed235d7731"
+    },
+    {
+      "seed": 1022,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "fc63536e70310582aaaed20be2eb4b2615d97b7203591f11499d076c8c84090d"
+    },
+    {
+      "seed": 1022,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "ddc7fed46c1932b05abfdba3bd06807e7e67a43c771876ec1bc5094af72f7794"
+    },
+    {
+      "seed": 1023,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "ac79fabcfc2fdd7f43ac4790e721ba728075e3f4655b7cb3ffd36e8d91c32b65"
+    },
+    {
+      "seed": 1023,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "c3092c79c99a183c5dca2c0ff746aafb59afcabc91d7df8ac07b3c9b9997d3ee"
+    },
+    {
+      "seed": 1024,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "ae5ea853c5cf6c677540983ae1f1a40a04013b438fa8042708a3feb58a5d5b93"
+    },
+    {
+      "seed": 1024,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "fd433b25406c76e992877013617ea9ba5a3804c79361c237ea2b3a83285f7b74"
+    },
+    {
+      "seed": 1025,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "04428cec45ea26fda7e863ec18e3afaf05b1cdbb7fba571a4f9115f556f71c12"
+    },
+    {
+      "seed": 1025,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "a744bc8d599275c180383bd1ab950cf29b2c339d0d06e3fefae0fc9290434ec0"
+    },
+    {
+      "seed": 1026,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "dc8a866d4401c8f77deaa4cd5b7c2ba905d8c3049b69819c31dc433bd42bf47a"
+    },
+    {
+      "seed": 1026,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "5e71952ee251701415b7b2f7c795b64a60881544748d04721d67c9c5ea2813ae"
+    },
+    {
+      "seed": 1027,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "6d1dd897b154f5b9466bbc3353eb4363c28205d58474f1cdbaf838ff874acdad"
+    },
+    {
+      "seed": 1027,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "633dd0eb352e690adbcbf058be1c2793faf1f5a7ff9e2a2f011500cba309568f"
+    },
+    {
+      "seed": 1028,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "1a705c32053c8f1c75b67a688801fbb0d7dc92c4b2912a85e0e17392c84ffb68"
+    },
+    {
+      "seed": 1028,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "a90cc632b02c44e23c4749aa2c40584fdcefab8ac5fe0eb60514fe88ac42ab86"
+    },
+    {
+      "seed": 1029,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "1e1afd07c8fca6669ccf62e916d54fb389743c6b73cbc4a064ef659882408629"
+    },
+    {
+      "seed": 1029,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "e0e27bf38e272355f435f64eb7b4aadc7bc199256cc5bb65ade23b48a73fb914"
+    },
+    {
+      "seed": 1030,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "aed8d01fafb1e8402ef56135611dd07d1c35b87c9735ea5c81c9839d7ea7bd21"
+    },
+    {
+      "seed": 1030,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "e8b7939e3cf26f57be4d448acb84c1c8acaf914ba4aef38f83bc876cc6cc54a1"
+    },
+    {
+      "seed": 1031,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "8dc8b33cec5144f69530f586ff3e2ece49597bf0163fc29674bc8a5d23bc716a"
+    },
+    {
+      "seed": 1031,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "f504d0a8ab0d1c7e83bad3dfcadf6639dbd1f735aed0b872009d05ee36255896"
+    },
+    {
+      "seed": 1032,
+      "mask": "111",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "2d584682843bf7222bafe24e82a7e93d530199d867b9b603444ba498a785276a"
+    },
+    {
+      "seed": 1032,
+      "mask": "000",
+      "checkpoint_unchanged": true,
+      "checkpoint_sha256": "1c05a9556462c30175bd35e6575f2d0a1c032bf80e611ca4291a1372e68c0c7d"
+    }
+  ]
+}

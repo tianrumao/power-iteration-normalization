@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "pairs": 32,
+  "models": 64,
+  "scores": 3840,
+  "targets": [
+    "q32",
+    "q64",
+    "q128",
+    "eigenvector"
+  ],
+  "probe_steps": 1200,
+  "mother_models_retrained": false
+}
