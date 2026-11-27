@@ -1,0 +1,22 @@
+{
+  "update_budget": 4800,
+  "initialization_sd": 0.03,
+  "task_target": "leading eigenvector; final layer-4 normalized direction readout",
+  "probe_target": "q_k = normalize((XX^T)^k a), eight independently calibrated targets",
+  "probe_loss": "mean(1 - squared cosine), bias-free linear maps; validation-only checkpoint selection",
+  "pairing": "same data, initialization, batches, precision and learning-rate schedule",
+  "gap": "absolute difference of final validation mean(1 - squared cosine) errors",
+  "flag_rule": "gap strictly greater than 0.1; retain every seed",
+  "pause_rule": "at least 8 pairs and flagged fraction strictly greater than 0.5",
+  "absolute_validation_error_gate": null,
+  "failure_policy": "save and halt on numerical or implementation failures; flag large performance gaps and apply cohort pause rule",
+  "analysis": "save test, probe and bypass results for every model, including flagged seeds; also summarize unflagged pairs separately",
+  "layers": "input 0 and network layers 1-4, eight power probes per layer",
+  "negative_control": "permute fit and validation labels separately; true test labels retained",
+  "bypass": "skip residual update, keep normalizer; length-matched and plain bypass",
+  "primary_contrast": "[(delta_E4-delta_E1)_on - (delta_E4-delta_E1)_off]",
+  "python": "3.13.16",
+  "numpy": "2.4.6",
+  "torch": "2.14.1+cu130",
+  "device": "cuda"
+}
