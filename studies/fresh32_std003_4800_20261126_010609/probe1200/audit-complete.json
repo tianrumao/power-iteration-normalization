@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "comparison_rows": 7680,
+  "target_audit_rows": 192,
+  "verified_probe_pools": 32,
+  "probe_data_note": "Regenerated inputs and power labels exactly match saved parent SHA256; eigenvector references are newly recomputed.",
+  "intermediate_layer_at_cap": 421,
+  "intermediate_layer_maps": 4608,
+  "late_validation_gain_mean": 0.0011347830577558083,
+  "late_validation_gain_p95": 0.0041082985815104785
+}

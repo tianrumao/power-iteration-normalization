@@ -1,0 +1,14 @@
+{
+  "parent_run": "fresh32_std003_4800_20261126_010609",
+  "mother_models_retrained": false,
+  "original_probe_steps": 300,
+  "probe_steps": 1200,
+  "selection": "validation only, including fixed readout at step zero",
+  "data": "Regenerated probe pool only; require original input and power-label SHA256.",
+  "model_source": "Original selected.pt, no mother-model parameter updates",
+  "versions": {
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.4.6",
+    "torch": "2.14.1+cu130"
+  }
+}

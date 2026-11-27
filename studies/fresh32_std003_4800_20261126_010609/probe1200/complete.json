@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "pairs": 32,
+  "models": 64,
+  "probe_scores": 7680,
+  "steps": 1200,
+  "mother_models_retrained": false
+}
